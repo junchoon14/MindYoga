@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eQM-vz-dlc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FEp-RQ-ghh">
+            <objects>
+                <viewController id="eQM-vz-dlc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="chO-JV-mjy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper2" translatesAutoresizingMaskIntoConstraints="NO" id="Adz-9U-Kpf" userLabel="background">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mandala_2" translatesAutoresizingMaskIntoConstraints="NO" id="DQ1-SR-fqE" userLabel="mendala">
+                                <rect key="frame" x="137.5" y="25" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DQ1-SR-fqE" secondAttribute="height" multiplier="1:1" id="TaI-8w-qKk"/>
+                                    <constraint firstAttribute="width" constant="100" id="qwU-v2-EZk"/>
+                                </constraints>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TTw-bJ-GF3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <segue destination="R7E-0i-xAA" kind="embed" id="wye-Jj-qeg"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Adz-9U-Kpf" firstAttribute="bottom" secondItem="3zo-ec-W7S" secondAttribute="bottom" id="4Ln-hO-cL4"/>
+                            <constraint firstItem="TTw-bJ-GF3" firstAttribute="trailing" secondItem="3zo-ec-W7S" secondAttribute="trailing" id="82R-9g-KJJ"/>
+                            <constraint firstItem="DQ1-SR-fqE" firstAttribute="top" secondItem="3zo-ec-W7S" secondAttribute="top" constant="5" id="Jkh-wI-7nW"/>
+                            <constraint firstItem="Adz-9U-Kpf" firstAttribute="trailing" secondItem="3zo-ec-W7S" secondAttribute="trailing" id="Lfr-ca-Zkl"/>
+                            <constraint firstItem="DQ1-SR-fqE" firstAttribute="centerX" secondItem="chO-JV-mjy" secondAttribute="centerX" id="Sdj-Tc-lqL"/>
+                            <constraint firstItem="Adz-9U-Kpf" firstAttribute="leading" secondItem="3zo-ec-W7S" secondAttribute="leading" id="epG-bU-L7i"/>
+                            <constraint firstItem="Adz-9U-Kpf" firstAttribute="top" secondItem="chO-JV-mjy" secondAttribute="topMargin" id="gJE-MP-8a5"/>
+                            <constraint firstItem="TTw-bJ-GF3" firstAttribute="bottom" secondItem="3zo-ec-W7S" secondAttribute="bottom" id="goZ-wu-tcW"/>
+                            <constraint firstItem="TTw-bJ-GF3" firstAttribute="top" secondItem="chO-JV-mjy" secondAttribute="topMargin" id="trN-0u-Hbs"/>
+                            <constraint firstItem="TTw-bJ-GF3" firstAttribute="leading" secondItem="3zo-ec-W7S" secondAttribute="leading" id="xH4-N1-3jf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3zo-ec-W7S"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PJy-7P-2vo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4570" y="285"/>
+        </scene>
+        <!--第二章-->
+        <scene sceneID="zXW-OG-kNM">
+            <objects>
+                <viewController title="第二章" id="R7E-0i-xAA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1jq-tk-yjs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y4l-pL-qqV">
+                                <rect key="frame" x="20" y="125" width="335" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="0.50631421229999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="335" id="4P8-Ot-gIa"/>
+                                </constraints>
+                                <mutableString key="text">實踐鍛鍊
+
+
+瑜伽修行的基本步驟是戒、定、慧
+目的是去除身心障礙通向三摩地
+障礙有五:無明、我献、貪、瞋、痴
+它們或潛或現 突然勢不可擋
+其中無明是根本
+
+無明有四種顛倒
+以無常為常 以不淨為淨
+以苦為樂 視身心為我
+我執是與自我身心認同
+貪之根本是喜生厭死
+貪而不得便生瞋
+貪之久則痴
+即使飽學之士 也難免其咎
+
+覺知可以消除這五種障礙的表象
+這些障礙由過去的業行而來
+在可見及不可見的疆域
+循環往復 如同輪轉
+善有善報 惡有惡報
+
+悟者知曉一切皆苦
+因為總是陷入無常、焦慮、習性
+還有三態和五種障礙之中
+未來之苦可以避免
+其根源是見者認同於見
+
+
+根塵相對得以成見
+見有三態:固性、活性、慣性
+三態平衡即可超載 成為第四的
+見亦有四個層次
+確定的、未定的、顯現的、未顯現的
+
+
+見若息滅覺知即生
+煩惱即菩提生死即涅槃
+所見只為見者而存在
+不用求真 唯須息見
+見若不存 見者何在
+對待雙亡 當體即空
+
+根塵相對 本以認知為用
+認知卻成為無明的根源
+
+覺知能讓根塵相對而不起我見
+它是解脫束縛的終極良藥
+時時刻刻保持覺知
+無明便會消解
+
+成道可分七個步驟
+一步步除去妄見
+靈性之光始顯現
+真相開始顯露
+
+七個步驟體現為八個階段
+持戒、紀律、體式、調息
+攝心、凝神、禪定、三摩地
+
+拭戒有五:不暴力、不虛假、不偷盜、
+不縱慾和不貪吝,無論何時、何地、
+何種環境、修行到何等境界,都不可打破
+純淨、知足、苦行、覺知以及臣服
+是行之法則
+
+若有妄念 反之則消
+妄念無論已生、將生或者由之
+也無論程度強弱
+都會帶來相應的苦果
+
+堅守不暴力
+來到他面前的人就會放下敵意
+堅守不虛假 一切都自然成就
+勿需刻意作為
+
+堅守不偷盜 內在的寶藏始顯現
+堅守不縱慾 精力得以充盈
+堅守不貪吝 得以通曉一切
+
+戒律的修行導致純淨
+瑜伽行者不再執於身體和性
+純淨導致愉悅、專注、自制
+直至最終的開悟
+知足帶來至高的喜樂
+苦行淨化身心 敏感力逐漸增強
+
+保持時時刻刻的覺知
+與神性合一
+當意識純淨如光
+則自然臣服於神
+
+體式要穩固而舒適
+全然放鬆冥想無限
+身若止 心亦止
+當心念可以專注了
+現在始觀呼吸
+試著屏住呼吸
+或在呼與吸的轉換處停留
+
+因時因地地練習
+更持久 更微妙
+有第四種方式 它是內在自發的
+超出前三種
+內在之光開始驅散無明
+
+意識日漸專注 進入瑜伽的第五步
+攝心 返回源頭
+放棄外在的一切
+專注於意識之能量
+然後成為感官的主人
+</mutableString>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y4l-pL-qqV" firstAttribute="centerX" secondItem="1jq-tk-yjs" secondAttribute="centerX" id="1Zy-mt-uzB"/>
+                            <constraint firstItem="y4l-pL-qqV" firstAttribute="top" secondItem="Zpd-MK-IqD" secondAttribute="top" constant="105" id="1dm-t6-UL6"/>
+                            <constraint firstItem="Zpd-MK-IqD" firstAttribute="bottom" secondItem="y4l-pL-qqV" secondAttribute="bottom" constant="30" id="GIh-5p-yuR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Zpd-MK-IqD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XfH-m9-fIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5497" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mandala_2" width="138" height="138"/>
+        <image name="paper2" width="1920" height="1080"/>
+    </resources>
+</document>

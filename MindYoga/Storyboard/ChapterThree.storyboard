@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="46v-o2-dZ2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--第三章-->
+        <scene sceneID="6Uw-e4-jBU">
+            <objects>
+                <viewController title="第三章" id="WTT-SR-6oo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L58-Wz-CGj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WU0-81-yqD">
+                                <rect key="frame" x="20" y="125" width="335" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="0.50631421229999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="335" id="rZe-Dq-eQe"/>
+                                </constraints>
+                                <mutableString key="text">禪定力量
+
+凝神是意識集中 專念一處
+禪定是不間斷的意識流
+三摩地是見者與所見合一
+物我兩忘
+由此三者而達三夜摩(無念)
+獲得至高的覺知之光
+此三較之前五 更為內在
+但較之無種三摩地 仍屬外在
+
+對無念的瞥見
+是意識方式的徹底扭轉
+前念已去 後念未生
+突然被空無穿透
+這短暫的瞥見形成助力
+越來越多的覺知片刻慢慢結晶
+
+這是內在的根本轉化
+習性慢慢減退 從而達到禪定
+寧靜越來越深沒有限度
+無念之念 唸唸相續 唸唸歸正
+
+
+
+對這三種轉化--根空、塵空和見空
+進行三夜摩(冥想)
+便得知過去與未來
+
+聲音與成見常常混為一談
+冥想於聲音 便可分清
+了知聲音之本意
+
+觀照過去的經歷得知前世
+獲得宿命通的能力
+冥想他人的意識
+獲得他心通的能力
+但是只知畫面不知動機
+因為動機並非冥想的能力所及
+
+但是只知畫面不知動機
+因為動機並非冥想的能力所及
+
+冥想於身體
+根塵之間的連接得以中斷
+身體可以隱形 獲得無行地的能力
+聞根的消失 亦與之同理
+
+冥想於業力 預兆或徵兆
+能預知死期
+冥想於友善或任何品質
+
+會獲得到相應的力量
+冥想於大象之力
+會獲得大象之力
+
+冥想之光
+可獲得精微、隱蔽和遙遠的知識
+冥想於太陽 得以了知太陽系
+冥想於月亮 得以了知星系
+冥想於北極星 得以了知星辰的運行
+冥想於臍輪 得以了知身體組織
+冥想於喉輪 可以中止飢渴
+冥想於呼吸 可以入定
+
+冥想於頂輪之光
+陰陽兩極的能量合一 獲得超覺之光
+超覺之光 揭示一切
+冥想於心輪 獲得全然的意識
+
+悟者深知一切經驗都是錯覺
+因為見者認同於所見
+冥想於覺知 能明辨真假
+由此產生超覺的聽力
+觸覺、視力、味覺和嗅覺
+這些神通若應用於外
+就會非常神奇
+但卻是三摩地的障礙
+解開束缚之因 知曉方法
+意識就可進入他人身體
+
+精通上行能量的人 身體感覺很輕
+能在水面行走 陸行不受荊棘之害
+精通火氣的人 可啟動胃部之火
+(赤身冰天雪地而不冷)
+冥想於聞 產生超覺聽力
+冥想於觸 化身超越時空
+超越身心的覺知 去除一切無明
+
+冥想於五大及它們之間的關係
+就能超越一切身外之物
+超越之體可以極小或極大
+美麗有力而金剛不壞
+
+
+冥想於六根 便可超越感官
+超越之知 可以直接感知一切
+明辨一切 全知全能
+只有不執著於些神通
+束的種子才得徹底摧毀 達成終極解脫
+
+即便是成為了神的信使
+也要避免依戀或動機
+否則可能走火入魔
+冥想於剎那與永恆
+得知終極實相由此生出明辨
+即使它們在表面上完全一樣
+全知能瞬間 明辨一切
+超越時空 超越過程和兩極
+當我與我見與意識純淨如一
+得入涅槃
+</mutableString>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WU0-81-yqD" firstAttribute="centerX" secondItem="L58-Wz-CGj" secondAttribute="centerX" id="BM9-gL-FRC"/>
+                            <constraint firstItem="ikp-zy-hcF" firstAttribute="bottom" secondItem="WU0-81-yqD" secondAttribute="bottom" constant="30" id="Yfz-C3-FPE"/>
+                            <constraint firstItem="WU0-81-yqD" firstAttribute="top" secondItem="ikp-zy-hcF" secondAttribute="top" constant="105" id="qKi-ec-Lbm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ikp-zy-hcF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6p7-RN-KQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6217" y="-43"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="t0I-cM-rna">
+            <objects>
+                <viewController id="46v-o2-dZ2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yiZ-Xm-tnc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper3" translatesAutoresizingMaskIntoConstraints="NO" id="4h0-uH-ITf" userLabel="background">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mandala_3" translatesAutoresizingMaskIntoConstraints="NO" id="aWI-U7-nlJ" userLabel="mendala">
+                                <rect key="frame" x="137.5" y="25" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aWI-U7-nlJ" secondAttribute="height" multiplier="1:1" id="8OL-aU-Xdm"/>
+                                    <constraint firstAttribute="width" constant="100" id="ytn-mn-UIj"/>
+                                </constraints>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0D-Y7-dGx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <segue destination="WTT-SR-6oo" kind="embed" id="en0-Wf-wda"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="D0D-Y7-dGx" firstAttribute="trailing" secondItem="U8h-Yy-4iR" secondAttribute="trailing" id="595-hu-rp7"/>
+                            <constraint firstItem="4h0-uH-ITf" firstAttribute="bottom" secondItem="U8h-Yy-4iR" secondAttribute="bottom" id="BeW-Jd-pea"/>
+                            <constraint firstItem="D0D-Y7-dGx" firstAttribute="leading" secondItem="U8h-Yy-4iR" secondAttribute="leading" id="DIr-EZ-mhF"/>
+                            <constraint firstItem="aWI-U7-nlJ" firstAttribute="centerX" secondItem="yiZ-Xm-tnc" secondAttribute="centerX" id="GwS-lW-W97"/>
+                            <constraint firstItem="D0D-Y7-dGx" firstAttribute="top" secondItem="yiZ-Xm-tnc" secondAttribute="topMargin" id="WUg-BP-BSf"/>
+                            <constraint firstItem="4h0-uH-ITf" firstAttribute="trailing" secondItem="U8h-Yy-4iR" secondAttribute="trailing" id="Zvv-uw-lI7"/>
+                            <constraint firstItem="aWI-U7-nlJ" firstAttribute="top" secondItem="U8h-Yy-4iR" secondAttribute="top" constant="5" id="cGd-s2-VZS"/>
+                            <constraint firstItem="4h0-uH-ITf" firstAttribute="top" secondItem="yiZ-Xm-tnc" secondAttribute="topMargin" id="hI3-tv-6RJ"/>
+                            <constraint firstItem="4h0-uH-ITf" firstAttribute="leading" secondItem="U8h-Yy-4iR" secondAttribute="leading" id="iAY-x8-EFg"/>
+                            <constraint firstItem="D0D-Y7-dGx" firstAttribute="bottom" secondItem="U8h-Yy-4iR" secondAttribute="bottom" id="veu-6t-QPN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U8h-Yy-4iR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cR-PH-Fgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5134" y="-44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mandala_3" width="136" height="136"/>
+        <image name="paper3" width="192" height="127.91999816894531"/>
+    </resources>
+</document>
